@@ -419,9 +419,8 @@ export default function Portfolio() {
             <div className="mt-auto pt-20 border-t border-zinc-900 space-y-10">
               <p className="text-zinc-600 uppercase tracking-[0.4em] text-[10px] font-black">Réseaux Sociaux</p>
               <div className="flex gap-12 text-white font-bold uppercase tracking-[0.2em] text-2xl">
-                <a href="#">LN</a>
-                <a href="#">GH</a>
-                <a href="#">TW</a>
+                <a href="https://www.linkedin.com/in/miguel-developpeur-b40271395" target="_blank">LN</a>
+                <a href="https://github.com/DARK19SMITH" target="_blank">GH</a>
               </div>
             </div>
           </motion.div>
