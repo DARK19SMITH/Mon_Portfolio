@@ -320,7 +320,7 @@ export default function Portfolio() {
               
               <div className="flex gap-8 pt-6">
                 <motion.a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/miguel-developpeur-b40271395"
                   target="_blank"
                   whileHover={{ y: -8, scale: 1.1 }}
                   className="w-16 h-16 rounded-full border border-black/10 group-hover:border-white/10 flex items-center justify-center cursor-pointer group-hover:text-white transition-all duration-500"
@@ -328,7 +328,7 @@ export default function Portfolio() {
                   <Linkedin className="w-6 h-6" />
                 </motion.a>
                 <motion.a
-                  href="https://github.com"
+                  href="https://github.com/DARK19SMITH"
                   target="_blank"
                   whileHover={{ y: -8, scale: 1.1 }}
                   className="w-16 h-16 rounded-full border border-black/10 group-hover:border-white/10 flex items-center justify-center cursor-pointer group-hover:text-white transition-all duration-500"
