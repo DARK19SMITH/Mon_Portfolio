@@ -34,25 +34,25 @@ const PROJECTS = [
   {
     title: "WorldWear",
     category: "E-commerce",
-    description: "Une boutique de vêtements en ligne moderne avec une expérience utilisateur fluide, gestion de panier et interface épurée.",
+    description: "Ma boutique de vêtements en ligne moderne avec une expérience utilisateur fluide et une interface épurée.",
     image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
-    tags: ["Tailwind CSS", "Next.js", "E-commerce"],
+    tags: ["Tailwind CSS", "Next.js", "Stripe"],
     link: "#"
   },
   {
     title: "AntiGaspi Market",
     category: "Impact Social / B2B",
-    description: "Plateforme permettant aux supermarchés de vendre rapidement leurs articles proches de la péremption avec des réductions. Projet nécessitant une collaboration directe avec les enseignes.",
+    description: "Une plateforme permettant aux supermarchés de vendre rapidement leurs articles proches de la péremption avec des réductions. (En phase de partenariat)",
     image: "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1200&auto=format&fit=crop",
-    tags: ["React", "Logistique", "Partenariat"],
+    tags: ["React", "Logistique", "Impact Social"],
     link: "#"
   }
 ];
 
 const SKILLS = [
   { icon: <Code className="w-5 h-5" />, title: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind"] },
-  { icon: <Layers className="w-5 h-5" />, title: "Design", items: ["Figma", "UI/UX", "Motion Design", "Spline"] },
-  { icon: <Cpu className="w-5 h-5" />, title: "Backend", items: ["Node.js", "PostgreSQL", "Supabase", "GraphQL"] },
+  { icon: <Terminal className="w-5 h-5" />, title: "Cybersécurité", items: ["Bases réseaux", "Sécurité Web", "Ethical Hacking", "Linux"] },
+  { icon: <Cpu className="w-5 h-5" />, title: "Backend", items: ["Node.js", "PostgreSQL", "Supabase", "API REST"] },
 ];
 
 export default function Portfolio() {
