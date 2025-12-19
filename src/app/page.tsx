@@ -134,14 +134,14 @@ export default function Portfolio() {
             </div>
             
             <h1 className="text-6xl md:text-[9rem] font-bold tracking-tighter text-white mb-10 leading-[0.85] uppercase">
-              Artisan du <br />
-              <span className="text-gradient italic font-serif lowercase">Numérique</span>
+              Miguel <br />
+              <span className="text-gradient italic font-serif lowercase">Dev</span>
             </h1>
             
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-16 mt-16 border-t border-zinc-900 pt-16">
               <div className="max-w-xl space-y-6">
                 <p className="text-xl md:text-2xl text-zinc-400 leading-relaxed font-light">
-                  Je fusionne l'excellence technique et la vision artistique pour créer des expériences digitales haut de gamme qui définissent le web moderne.
+                  Développeur Fullstack basé à Abidjan. Je transforme des idées complexes en produits numériques élégants et performants.
                 </p>
                 <div className="flex gap-4">
                    <div className="flex items-center gap-2 text-white font-bold text-xs uppercase tracking-widest">
