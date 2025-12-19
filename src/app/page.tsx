@@ -141,17 +141,17 @@ export default function Portfolio() {
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-16 mt-16 border-t border-zinc-900 pt-16">
               <div className="max-w-xl space-y-6">
                 <p className="text-xl md:text-2xl text-zinc-400 leading-relaxed font-light">
-                  Développeur Fullstack basé à Abidjan. Je transforme des idées complexes en produits numériques élégants et performants.
+                  Développeur Fullstack & Passionné de Cybersécurité basé à Abidjan. Je conçois des solutions numériques robustes, élégantes et sécurisées.
                 </p>
                 <div className="flex gap-4">
                    <div className="flex items-center gap-2 text-white font-bold text-xs uppercase tracking-widest">
-                     <Zap className="w-4 h-4 text-zinc-500" /> Performance
+                     <Terminal className="w-4 h-4 text-zinc-500" /> Sécurité
                    </div>
                    <div className="flex items-center gap-2 text-white font-bold text-xs uppercase tracking-widest border-l border-zinc-800 pl-4">
-                     <Sparkles className="w-4 h-4 text-zinc-500" /> Élégance
+                     <Sparkles className="w-4 h-4 text-zinc-500" /> Design
                    </div>
                    <div className="flex items-center gap-2 text-white font-bold text-xs uppercase tracking-widest border-l border-zinc-800 pl-4">
-                     <Terminal className="w-4 h-4 text-zinc-500" /> Code Pur
+                     <Code className="w-4 h-4 text-zinc-500" /> Code Pur
                    </div>
                 </div>
               </div>
