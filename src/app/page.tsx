@@ -141,7 +141,7 @@ export default function Portfolio() {
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-16 mt-16 border-t border-zinc-900 pt-16">
               <div className="max-w-xl space-y-6">
                 <p className="text-xl md:text-2xl text-zinc-400 leading-relaxed font-light">
-                  Développeur Fullstack & Passionné de Cybersécurité basé à Abidjan. Je conçois des solutions numériques robustes, élégantes et sécurisées.
+                  Développeur Fullstack & Passionné de Cybersécurité basé à Abidjan. Je conçois des solutions numériques robustes et j'apprends actuellement les bases de la sécurité informatique.
                 </p>
                 <div className="flex gap-4">
                    <div className="flex items-center gap-2 text-white font-bold text-xs uppercase tracking-widest">
