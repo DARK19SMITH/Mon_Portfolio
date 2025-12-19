@@ -258,11 +258,6 @@ export default function Portfolio() {
             <p className="text-zinc-500 text-xl max-w-sm font-light leading-relaxed">
               Maîtrisant les derniers outils et frameworks pour bâtir des produits rapides, sécurisés et visuellement saisissants.
             </p>
-            <div className="pt-6">
-              <Button variant="outline" className="rounded-full border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-800 px-8 py-6 h-auto text-[11px] font-bold tracking-[0.2em] uppercase">
-                TÉLÉCHARGER MON CV
-              </Button>
-            </div>
           </div>
 
           <div className="space-y-8">
