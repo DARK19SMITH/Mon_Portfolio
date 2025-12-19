@@ -24,27 +24,27 @@ import { Badge } from "@/components/ui/badge";
 
 const PROJECTS = [
   {
-    title: "CodeMaster Academy",
+    title: "ViensCoder",
     category: "EdTech / App Mobile",
-    description: "Une plateforme interactive et une application mobile conçues pour apprendre la programmation avec les langages les plus demandés. (En cours de développement)",
+    description: "Une plateforme et une application mobile innovantes conçues pour apprendre la programmation avec les langages les plus utilisés. (En cours)",
     image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=1200&auto=format&fit=crop",
     tags: ["React Native", "Next.js", "Firebase"],
     link: "#"
   },
   {
-    title: "Boutique de Mode Miguel",
+    title: "WorldWear",
     category: "E-commerce",
-    description: "Une boutique de vêtements en ligne élégante avec une expérience utilisateur fluide, gestion de panier et paiements sécurisés.",
+    description: "Une boutique de vêtements en ligne moderne avec une expérience utilisateur fluide, gestion de panier et interface épurée.",
     image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
-    tags: ["Tailwind CSS", "Stripe", "Next.js"],
+    tags: ["Tailwind CSS", "Next.js", "E-commerce"],
     link: "#"
   },
   {
-    title: "Eco-Supermarché CI",
-    category: "Impact Social / Anti-Gaspi",
-    description: "Plateforme innovante permettant aux supermarchés de vendre rapidement leurs produits proches de la péremption avec des réductions, luttant ainsi contre le gaspillage alimentaire.",
+    title: "AntiGaspi Market",
+    category: "Impact Social / B2B",
+    description: "Plateforme permettant aux supermarchés de vendre rapidement leurs articles proches de la péremption avec des réductions. Projet nécessitant une collaboration directe avec les enseignes.",
     image: "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1200&auto=format&fit=crop",
-    tags: ["Logistique", "Partenariat B2B", "Web App"],
+    tags: ["React", "Logistique", "Partenariat"],
     link: "#"
   }
 ];
