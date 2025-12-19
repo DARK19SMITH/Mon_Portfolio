@@ -129,7 +129,7 @@ export default function Portfolio() {
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
               </span>
               <Badge variant="outline" className="border-zinc-800 text-zinc-400 py-1.5 px-5 uppercase tracking-[0.2em] text-[10px] font-bold bg-zinc-900/50">
-                Disponible pour de nouveaux défis
+                Disponible pour toutes collaborations
               </Badge>
             </div>
             
