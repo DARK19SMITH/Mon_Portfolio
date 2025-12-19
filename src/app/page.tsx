@@ -305,11 +305,20 @@ export default function Portfolio() {
             </p>
             
             <div className="flex flex-col items-center gap-10">
-              <Button size="lg" className="rounded-full bg-black text-white group-hover:bg-white group-hover:text-black px-16 py-10 text-xl md:text-2xl font-black tracking-[0.1em] transition-all hover:scale-105 uppercase h-auto">
-                CONTACT@MIGUELDEV.COM
+              <Button 
+                size="lg" 
+                className="rounded-full bg-black text-white group-hover:bg-white group-hover:text-black px-16 py-10 text-xl md:text-2xl font-black tracking-[0.1em] transition-all hover:scale-105 uppercase h-auto"
+                onClick={() => window.location.href = "mailto:Migueldevstack@gmail.com"}
+              >
+                MIGUELDEVSTACK@GMAIL.COM
               </Button>
+
+              <div className="flex flex-col items-center gap-2">
+                <p className="text-zinc-500 group-hover:text-zinc-400 text-sm font-bold tracking-[0.2em] uppercase transition-colors">Appelez-moi</p>
+                <a href="tel:+2250160010377" className="text-black group-hover:text-white text-3xl font-bold tracking-tighter transition-colors">+225 01 60 01 03 77</a>
+              </div>
               
-              <div className="flex gap-8">
+              <div className="flex gap-8 pt-6">
                 {[Linkedin, Github, Mail].map((Icon, i) => (
                   <motion.div
                     key={i}
