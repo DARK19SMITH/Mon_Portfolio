@@ -26,7 +26,7 @@ const PROJECTS = [
   {
     title: "ViensCoder",
     category: "EdTech / App Mobile",
-    description: "Une plateforme et une application mobile innovantes conçues pour apprendre la programmation avec les langages les plus utilisés. (En cours)",
+    description: "Un site et une application mobile pour apprendre à programmer avec les langages les plus utilisés. (En cours)",
     image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=1200&auto=format&fit=crop",
     tags: ["React Native", "Next.js", "Firebase"],
     link: "#"
@@ -34,7 +34,7 @@ const PROJECTS = [
   {
     title: "WorldWear",
     category: "E-commerce",
-    description: "Ma boutique de vêtements en ligne moderne avec une expérience utilisateur fluide et une interface épurée.",
+    description: "Une boutique de vêtements en ligne moderne avec une expérience utilisateur fluide et une interface épurée.",
     image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
     tags: ["Tailwind CSS", "Next.js", "Stripe"],
     link: "#"
@@ -42,7 +42,7 @@ const PROJECTS = [
   {
     title: "AntiGaspi Market",
     category: "Impact Social / B2B",
-    description: "Une plateforme permettant aux supermarchés de vendre rapidement leurs articles proches de la péremption avec des réductions. (En phase de partenariat)",
+    description: "Plateforme permettant aux supermarchés de vendre rapidement leurs articles proches de la péremption avec des réductions. (En phase de partenariat avec les supermarchés)",
     image: "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1200&auto=format&fit=crop",
     tags: ["React", "Logistique", "Impact Social"],
     link: "#"
@@ -51,7 +51,7 @@ const PROJECTS = [
 
 const SKILLS = [
   { icon: <Code className="w-5 h-5" />, title: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind"] },
-  { icon: <Terminal className="w-5 h-5" />, title: "Cybersécurité", items: ["Bases réseaux", "Sécurité Web", "Ethical Hacking", "Linux"] },
+  { icon: <Terminal className="w-5 h-5" />, title: "Cybersécurité", items: ["Bases réseaux", "Sécurité Web", "Apprentissage", "Linux"] },
   { icon: <Cpu className="w-5 h-5" />, title: "Backend", items: ["Node.js", "PostgreSQL", "Supabase", "API REST"] },
 ];
 
