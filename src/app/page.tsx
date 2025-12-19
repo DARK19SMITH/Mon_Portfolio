@@ -319,15 +319,29 @@ export default function Portfolio() {
               </div>
               
               <div className="flex gap-8 pt-6">
-                {[Linkedin, Github, Mail].map((Icon, i) => (
-                  <motion.div
-                    key={i}
-                    whileHover={{ y: -8, scale: 1.1 }}
-                    className="w-16 h-16 rounded-full border border-black/10 group-hover:border-white/10 flex items-center justify-center cursor-pointer group-hover:text-white transition-all duration-500"
-                  >
-                    <Icon className="w-6 h-6" />
-                  </motion.div>
-                ))}
+                <motion.a
+                  href="https://linkedin.com"
+                  target="_blank"
+                  whileHover={{ y: -8, scale: 1.1 }}
+                  className="w-16 h-16 rounded-full border border-black/10 group-hover:border-white/10 flex items-center justify-center cursor-pointer group-hover:text-white transition-all duration-500"
+                >
+                  <Linkedin className="w-6 h-6" />
+                </motion.a>
+                <motion.a
+                  href="https://github.com"
+                  target="_blank"
+                  whileHover={{ y: -8, scale: 1.1 }}
+                  className="w-16 h-16 rounded-full border border-black/10 group-hover:border-white/10 flex items-center justify-center cursor-pointer group-hover:text-white transition-all duration-500"
+                >
+                  <Github className="w-6 h-6" />
+                </motion.a>
+                <motion.a
+                  href="mailto:Migueldevstack@gmail.com"
+                  whileHover={{ y: -8, scale: 1.1 }}
+                  className="w-16 h-16 rounded-full border border-black/10 group-hover:border-white/10 flex items-center justify-center cursor-pointer group-hover:text-white transition-all duration-500"
+                >
+                  <Mail className="w-6 h-6" />
+                </motion.a>
               </div>
             </div>
           </div>
