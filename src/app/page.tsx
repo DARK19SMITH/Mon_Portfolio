@@ -24,27 +24,27 @@ import { Badge } from "@/components/ui/badge";
 
 const PROJECTS = [
   {
-    title: "Eco-Pulse CI",
-    category: "Développement Web",
-    description: "Une plateforme de surveillance environnementale en temps réel pour les zones urbaines d'Abidjan.",
-    image: "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=1200&auto=format&fit=crop",
-    tags: ["Next.js", "TypeScript", "D3.js"],
+    title: "CodeMaster Academy",
+    category: "EdTech / App Mobile",
+    description: "Une plateforme interactive et une application mobile conçues pour apprendre la programmation avec les langages les plus demandés. (En cours de développement)",
+    image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?q=80&w=1200&auto=format&fit=crop",
+    tags: ["React Native", "Next.js", "Firebase"],
     link: "#"
   },
   {
-    title: "Quantum UI System",
-    category: "Design System",
-    description: "Un système de conception complet axé sur l'accessibilité et les micro-interactions fluides.",
-    image: "https://images.unsplash.com/photo-1620712943543-bcc4628c6757?q=80&w=1200&auto=format&fit=crop",
-    tags: ["React", "Tailwind", "Framer Motion"],
+    title: "Boutique de Mode Miguel",
+    category: "E-commerce",
+    description: "Une boutique de vêtements en ligne élégante avec une expérience utilisateur fluide, gestion de panier et paiements sécurisés.",
+    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
+    tags: ["Tailwind CSS", "Stripe", "Next.js"],
     link: "#"
   },
   {
-    title: "Ivoir'Market",
-    category: "E-commerce Premium",
-    description: "Expérience de shopping immersive avec rendu 3D pour l'artisanat ivoirien de luxe.",
-    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
-    tags: ["Three.js", "Shopify API", "GSAP"],
+    title: "Eco-Supermarché CI",
+    category: "Impact Social / Anti-Gaspi",
+    description: "Plateforme innovante permettant aux supermarchés de vendre rapidement leurs produits proches de la péremption avec des réductions, luttant ainsi contre le gaspillage alimentaire.",
+    image: "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1200&auto=format&fit=crop",
+    tags: ["Logistique", "Partenariat B2B", "Web App"],
     link: "#"
   }
 ];
