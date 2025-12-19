@@ -157,14 +157,21 @@ export default function Portfolio() {
               </div>
               
               <div className="flex flex-col items-start gap-4 shrink-0">
-                <div className="flex -space-x-4 mb-2">
-                  {[1,2,3,4].map(i => (
-                    <div key={i} className="w-12 h-12 rounded-full border-4 border-[#050505] bg-zinc-800 flex items-center justify-center text-[10px] font-bold text-white overflow-hidden ring-1 ring-white/10">
-                      <img src={`https://i.pravatar.cc/100?img=${i+20}`} alt="client" className="w-full h-full object-cover" />
-                    </div>
-                  ))}
-                </div>
-                <p className="text-[10px] font-black tracking-[0.3em] text-zinc-600 uppercase">Collaborations Globales</p>
+                <motion.div 
+                  animate={{ 
+                    scale: [1, 1.05, 1],
+                    opacity: [0.5, 1, 0.5]
+                  }}
+                  transition={{ 
+                    duration: 2, 
+                    repeat: Infinity, 
+                    ease: "easeInOut" 
+                  }}
+                  className="flex items-center gap-2"
+                >
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]" />
+                  <p className="text-[10px] font-black tracking-[0.3em] text-white uppercase">Disponible pour toutes collaborations</p>
+                </motion.div>
               </div>
             </div>
           </motion.div>
