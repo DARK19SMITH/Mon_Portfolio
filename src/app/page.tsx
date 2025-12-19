@@ -364,9 +364,8 @@ export default function Portfolio() {
 
         <div className="flex flex-col items-center md:items-end gap-10">
           <div className="flex gap-12 text-[10px] font-black tracking-[0.4em] text-zinc-600 uppercase">
-            <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
-            <a href="#" className="hover:text-white transition-colors">Twitter</a>
-            <a href="#" className="hover:text-white transition-colors">GitHub</a>
+            <a href="https://www.linkedin.com/in/miguel-developpeur-b40271395" target="_blank" className="hover:text-white transition-colors">LinkedIn</a>
+            <a href="https://github.com/DARK19SMITH" target="_blank" className="hover:text-white transition-colors">GitHub</a>
           </div>
           <div className="flex items-center gap-6">
             <p className="text-[10px] text-zinc-800 font-bold uppercase tracking-[0.3em]">
