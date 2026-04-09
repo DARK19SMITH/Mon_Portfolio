@@ -42,7 +42,7 @@ const PROJECTS = [
   {
     title: "AntiGaspi Market",
     category: "Impact Social / B2B",
-    description: "Plateforme permettant aux supermarchés de vendre rapidement leurs articles proches de la péremption avec des réductions. (En phase de partenariat avec les supermarchés)",
+    description: "Une Plateforme permettant aux supermarchés de vendre rapidement leurs articles proches de la péremption avec des réductions. (En phase de partenariat avec les supermarchés)",
     image: "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1200&auto=format&fit=crop",
     tags: ["React", "Logistique", "Impact Social"],
     link: "#"
